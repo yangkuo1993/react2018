@@ -47,7 +47,8 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "tsc": "tsc"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -90,5 +91,10 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.2",
+    "typescript": "^3.0.3",
+    "uglify-js-brunch": "^2.10.0"
   }
 }
